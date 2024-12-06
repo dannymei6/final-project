@@ -13,7 +13,6 @@ window = pygame.display.set_mode((WIDTH, HEIGHT))
 
 def loadGame(window):
     clock = pygame.time.Clock()
-    background, bg_image = get_Background("Blue.png")
 
     run = True
     while run:
